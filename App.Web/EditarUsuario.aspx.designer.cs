@@ -10,42 +10,51 @@
 namespace App.Web {
     
     
-    public partial class Login {
+    public partial class EditarUsuario {
         
         /// <summary>
-        /// Control form1.
+        /// Control txtNombreBuscar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.TextBox txtNombreBuscar;
         
         /// <summary>
-        /// Control TxtUsuario.
+        /// Control btnBuscar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtUsuario;
+        protected global::System.Web.UI.WebControls.Button btnBuscar;
         
         /// <summary>
-        /// Control TxtClave.
+        /// Control txtNombreCargado.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtClave;
+        protected global::System.Web.UI.WebControls.TextBox txtNombreCargado;
         
         /// <summary>
-        /// Control BtnEntrar.
+        /// Control txtClaveCargada.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnEntrar;
+        protected global::System.Web.UI.WebControls.TextBox txtClaveCargada;
+        
+        /// <summary>
+        /// Control btnActualizar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnActualizar;
     }
 }

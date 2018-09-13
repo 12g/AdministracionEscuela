@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="Inicio.aspx" title="Inicio"  description="">
+    <siteMapNode url="ListarUsuarios.aspx" title="Usuarios"  description="" />
+    <siteMapNode url="CrearUsuario.aspx" title="Crear Usuario"  description="" />
+    <siteMapNode url="EditarUsuario.aspx" title="Editar Usuario"  description="" />
+    <siteMapNode url="EliminarUsuario.aspx" title="Eliminar Usuario"  description="" />
+  </siteMapNode>
+</siteMap>
