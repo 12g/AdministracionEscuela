@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4756DEF9-F8AB-47F8-943B-1CECD6CE0B12}</ProjectGuid>
+    <ProjectGuid>{EFFC9884-2D30-46B7-93ED-F3F40E4B1A2C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>App.Negocio</RootNamespace>
-    <AssemblyName>App.Negocio</AssemblyName>
+    <RootNamespace>App.Datos</RootNamespace>
+    <AssemblyName>App.Datos</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,14 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\App.Datos\App.Datos.csproj">
-      <Project>{effc9884-2d30-46b7-93ed-f3f40e4b1a2c}</Project>
-      <Name>App.Datos</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

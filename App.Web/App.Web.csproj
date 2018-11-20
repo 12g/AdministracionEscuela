@@ -131,10 +131,7 @@
     <Content Include="Web.sitemap" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\App.Negocio\App.Negocio.csproj">
-      <Project>{4756def9-f8ab-47f8-943b-1cecd6ce0b12}</Project>
-      <Name>App.Negocio</Name>
-    </ProjectReference>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
