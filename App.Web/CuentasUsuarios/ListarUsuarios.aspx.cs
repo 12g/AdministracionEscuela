@@ -4,14 +4,13 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using App.Negocio;
 
 namespace App.Web
 {
     public partial class ListarUsuarios : System.Web.UI.Page
     {
         //propiedad
-        private List<Usuario> MiListaUsuarios
+        /*private List<Usuario> MiListaUsuarios
         {
             get
             {
@@ -43,6 +42,6 @@ namespace App.Web
             }
 
             txtLista.Text = textoListaUsuarios;
-        }
+        }*/
     }
 }

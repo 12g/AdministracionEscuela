@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\..\SolucionCompany\EntityFramework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -41,7 +44,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Usuario.cs" />
+    <Compile Include="Colecciones\AlumnoColeccion.cs" />
+    <Compile Include="Colecciones\AsignaturaColeccion.cs" />
+    <Compile Include="Colecciones\AsistenciaColeccion.cs" />
+    <Compile Include="Colecciones\ClaseColeccion.cs" />
+    <Compile Include="Colecciones\CuentasUsuarioColeccion.cs" />
+    <Compile Include="Colecciones\CursoColeccion.cs" />
+    <Compile Include="Colecciones\EncargadoColeccion.cs" />
+    <Compile Include="Colecciones\NotaColeccion.cs" />
+    <Compile Include="Modelo\Alumno.cs" />
+    <Compile Include="Modelo\Asignatura.cs" />
+    <Compile Include="Modelo\Asistencia.cs" />
+    <Compile Include="Modelo\Clase.cs" />
+    <Compile Include="CommonBC.cs" />
+    <Compile Include="Modelo\CuentaUsuario.cs" />
+    <Compile Include="Modelo\Curso.cs" />
+    <Compile Include="Modelo\Encargado.cs" />
+    <Compile Include="Modelo\Nota.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

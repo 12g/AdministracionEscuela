@@ -4,14 +4,13 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using App.Negocio;
 
 namespace App.Web
 {
     public partial class EditarUsuario : System.Web.UI.Page
     {
         //propiedad
-        private List<Usuario> MiListaUsuarios
+        /*private List<Usuario> MiListaUsuarios
         {
             get
             {
@@ -26,7 +25,7 @@ namespace App.Web
             {
                 Session["listaUsuarios"] = value;
             }
-        }
+        }*/
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -42,7 +41,7 @@ namespace App.Web
         {
             String nombreUsuarioBuscar = txtNombreBuscar.Text;
 
-            foreach (Usuario item in MiListaUsuarios)
+            /*foreach (Usuario item in MiListaUsuarios)
             {
                 if (item.Nombre == nombreUsuarioBuscar)
                 {
@@ -50,14 +49,14 @@ namespace App.Web
                     txtClaveCargada.Text = item.Clave;
                     break;
                 }
-            }
+            }*/
         }
 
         protected void btnActualizar_Click(object sender, EventArgs e)
         {
             String nombreUsuarioBuscar = txtNombreBuscar.Text;
 
-            foreach (Usuario item in MiListaUsuarios)
+            /*foreach (Usuario item in MiListaUsuarios)
             {
                 if (item.Nombre == nombreUsuarioBuscar)
                 {
@@ -66,6 +65,7 @@ namespace App.Web
                     break;
                 }
             }
+            */
         }
     }
 }

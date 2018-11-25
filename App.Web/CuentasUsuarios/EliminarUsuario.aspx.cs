@@ -4,14 +4,13 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using App.Negocio;
 
 namespace App.Web
 {
     public partial class EliminarUsuario : System.Web.UI.Page
     {
         //propiedad
-        private List<Usuario> MiListaUsuarios
+        /*private List<Usuario> MiListaUsuarios
         {
             get
             {
@@ -26,7 +25,7 @@ namespace App.Web
             {
                 Session["listaUsuarios"] = value;
             }
-        }
+        }*/
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -37,7 +36,7 @@ namespace App.Web
         {
             String usuarioAEliminar = txtNombre.Text;
 
-            foreach (Usuario item in MiListaUsuarios)
+            /*foreach (Usuario item in MiListaUsuarios)
             {
                 if (item.Nombre == usuarioAEliminar)
                 {
@@ -46,6 +45,7 @@ namespace App.Web
                     break;
                 }
             }
+            */
         }
     }
 }
